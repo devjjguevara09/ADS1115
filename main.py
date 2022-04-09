@@ -27,6 +27,13 @@ Si la ganancia es 1x = 4.096V, entonces cada bit equivale a: 4.096V / (2^15 - 1)
 
 Si Vin = 2.5V entonces 2.5/0.000125 = 20000
 
+3. Circuito de prueba. Inicialmente, se utiliza una lectura de canales diferenciales, esto significa que la conversión se realiza a partir de 
+la diferencia de voltaje entre dos canales. Para este ejemplo los canales son:
+    0 = Vin
+    1 = GND
+Está pendiente comprobar la lectura de canales independientes.
+
+
 """
 
 
